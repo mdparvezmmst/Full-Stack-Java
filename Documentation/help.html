@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>E-Learn - Online Training Bootstrap Education Theme</title>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<!-- Add custom CSS here -->
+<link href="css/style.css" rel="stylesheet">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- Google Font here -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+<!--font-family: 'Open Sans', sans-serif;-->
+</head>
+<body>
+<div id="wrapper"> 
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper">
+    <div class="sideArrow"><a id="menu-toggle" href="#" class="btn btn-default"><i class="fa fa-chevron-right"></i></a></div>
+    <div class="sidebar-brand"> <a href="#"><img src="images/logo.jpg" width="147" height="87" alt=""></a> </div>
+    <ul class="sidebar-nav">
+      <li><span>Contents.</span></li>
+      <li><a href="#wbmenu" class="active">Add/Edit Website menu</a></li>
+      <li><a href="#bg-img"> Update Header Style</a></li>
+      <li><a href="#portfolio"> Update Portfolio</a></li>
+      <li><a href="#contact"> Set up Contact Form</a></li>
+      <li><a href="#map"> Set up Google map</li>
+      <li><a href="#post-slider"> Blog Page - Post Slider seetings</li>
+      <li><a href="#static-image"> Blog Page - Static Image seetings</li>
+      <li><a href="#youtube"> Blog Page - Youtube Video seetings</li>
+      <li><a href="#vimeo"> Blog Page - Vimeo Video seetings</li>
+      <li><a href="#html5"> Blog Page - HTML5 Video seetings</li>
+      <li><a href="#credits"> Sources and Credits</a></li>
+    </ul>
+    <p>If you have any questions that are beyond the scope of this help file, please feel free to email me via<a href="http://themeforest.net/user/themeelite" target="_blank"> user page contact form</a>. 
+      Thanks so much!</p>
+  </div>
+  <!-- Page content -->
+  <div id="page-content-wrapper">
+    <div class="fixedTop"><a href="http://themeforest.net/user/themeelite/portfolio" target="_blank" class="viewMore">View more products</a></div>
+    <div class="content-header">
+      <h1>e-Learn - Documentation</h1>
+    </div>
+    <!-- Keep all page content within the page-content inset div! -->
+    <div class="page-content inset">
+      <div class="row">
+        <h2 id="wbmenu">Add/Edit Website Menu</h2>
+        <p>1. Open the HTML files </p>
+        <p>2. Find out the section as bellow it's common for all 5 templates.</p>
+        <p><img src="images/menu.jpg"></p>
+        <p class="bottomLine"></p>
+        <h2 id="bg-img">Update Header Style</h2>
+        <br>
+        <br>
+        <p><strong>1. Header image</strong></p>
+        <img src="images/slider.jpg"> <br>
+        <br>
+        <p><strong>2. Header Video Background</strong></p>
+        <img src="images/youtube-header.jpg">
+        <p class="bottomLine">&nbsp;</p>
+        <h2 id="portfolio"> Update Portfolio</h2>
+        <p>Open index.html file and go to the portfolio section and change image path with your image path.</p>
+        <img src="images/portfolio-image.jpg">
+        <p class="bottomLine"></p>
+        <h2 id="contact">Set up Contact Form</h2>
+        <p> To set up the contact form to send emails with the persons which are contacting you, open "contact.php" file and change the email from line 42 with your own email.
+        <pre>Line 42: $address = "example@example.net";</pre>
+        </p>
+        <p class="bottomLine">&nbsp;</p>
+        <h2 id="map">Set up Google map</h2>
+        <p> Go to https://maps.google.com/</p>
+        <img src="images/google-map-code.jpg">
+        <pre><span>var map;
+
+    function load() {
+      if (GBrowserIsCompatible()) {
+        map = new GMap2(document.getElementById("map"));
+        map.setCenter(new GLatLng(-37.817682, 144.957595), 13);
+        document.getElementById("map").checked = true;
+        toggleZoom(false);
+      }
+    }</span></pre>
+        <p class="bottomLine">&nbsp;</p>
+        <h2 id="post-slider">Blog Page - Post Slider seetings</h2>
+        <p>Open blog pages and update the code according to the below instruction</p>
+        <img src="images/post-slider.jpg">
+        <p class="bottomLine"></p>
+        <h2 id="static-image">Blog Page - Static Image seetings</h2>
+        <p>Open blog pages and update the code according to the below instruction</p>
+        <img src="images/static-img.jpg">
+        <p class="bottomLine"></p>
+        <h2 id="youtube">Blog Page - Youtube Video seetings</h2>
+        <p>Open blog pages and update the code according to the below instruction</p>
+        <img src="images/youtube.jpg">
+        <p class="bottomLine"></p>
+        '
+        <h2 id="vimeo"> Blog Page - Vimeo Video seetings</h2>
+        <p>Open blog pages and update the code according to the below instruction</p>
+        <img src="images/vimeo.jpg">
+        <p class="bottomLine"></p>
+        <h2 id="html5">Blog Page - HTML5 Video seetings</h2>
+        <p>Open blog pages and update the code according to the below instruction</p>
+        <img src="images/html-video.jpg">
+        <p class="bottomLine"></p>
+        <h2 id="credits">7. Sources and Credits</h2>
+        <p>
+        <ol>
+          <li>http://jquery.com/</li>
+          <li>http://getbootstrap.com/</li>
+          <li> https://github.com/ded/bonzo</li>
+          <li>https://github.com/nicinabox/superslides</li>
+          <li>http://adomas.org/javascript-mouse-wheel/</li>
+          <li>http://keith-wood.name/countdown.html</li>
+          <li>http://gsgd.co.uk/sandbox/jquery/easing/</li>
+          <li>http://www.woothemes.com/flexslider/</li>
+          <li> https://github.com/danbentley</li>
+          <li>http://masonry.desandro.com</li>
+          <li>www.buildinternet.com/project/supersized</li>
+          <li>https://www.flickr.com/photos/valeri-nv/</li>
+          <li>https://www.flickr.com/photos/andysidders</li>
+          <li>https://www.flickr.com/photos/102173524@N05/</li>
+          <li>http://www.google.com/fonts/specimen/Montserrat</li>
+          <li>http://www.fontsquirrel.com/fonts/open-sans</li>
+          <li>http://fontawesome.io/</li>
+          <li>http://www.woothemes.com/flexslider/</li>
+        </ol>
+        </p>
+        <p class="bottomLine">&nbsp;</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- JavaScript --> 
+<script src="js/jquery-1.10.2.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<!-- Custom JavaScript for the Menu Toggle --> 
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+    </script> 
+<!--  Somth page scroll  --> 
+<script>
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			  var target = $(this.hash);
+			  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			  if (target.length) {
+				$('html,body').animate({
+				  scrollTop: target.offset().top -80
+				}, 1000);
+				$('a[href*=#]:not([href=#])').removeClass('active');
+				$(this).addClass('active');
+				return false;
+			  }
+			}
+		  });
+		});
+    </script>
+</body>
+</html>
